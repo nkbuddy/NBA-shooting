@@ -16,8 +16,9 @@ we find a dataset from kaggle, it is about 180,000 shots from 2014 to 2015 NBA.T
 ![alt text](https://github.com/nkbuddy/NBA-shooting/blob/solved/github%20images/correlation%20matrix.png?raw=true)
 ![alt text](https://github.com/nkbuddy/NBA-shooting/blob/solved/github%20images/line.png?raw=true)
 ![alt text](https://github.com/nkbuddy/NBA-shooting/blob/solved/github%20images/location%20and%20pts.png?raw=true)
+Three-point's Field Goals Made(FGM) are lower than Two-point 14 percents. Both have very low variance. There are no different between Home's FGM and away's FGM. 
 ![alt text](https://github.com/nkbuddy/NBA-shooting/blob/solved/github%20images/shot%20dist.png?raw=true)
-
+Only the shot distance between 0 and 5 feet are maked more than missed. Most shot are in the distance around 25 FEET.
 # Modeling
 
 ![alt text](https://github.com/nkbuddy/NBA-shooting/blob/solved/github%20images/model%20score.png?raw=true)
@@ -28,7 +29,6 @@ we starting with Trees, Bagging, Random Forests, and Boosting. They are basicall
 ![alt text](https://github.com/nkbuddy/NBA-shooting/blob/solved/github%20images/XGB_feature_importance.png?raw=true)
 
 # Model 2-Random Forest
-
 ![alt text](https://github.com/nkbuddy/NBA-shooting/blob/solved/github%20images/rf_confusion_matrix.png?raw=true)
 ![alt text](https://github.com/nkbuddy/NBA-shooting/blob/solved/github%20images/rf_feature_import.png?raw=true)
 
