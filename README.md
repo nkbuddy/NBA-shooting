@@ -9,6 +9,9 @@ Blog post URL:https://github.com/nkbuddy/dsc-phase-3-project-NBA<br>
 # Overview
 In this project, we are analyzing the data to answer a very simple question: Can we use ML to accurately predict a shot’s success based on external factors that are directly within a coach’s influence?
 
+## Technology in this projecct
+pandas, matplotlib, numpy, scipy, sklearn, XGBoost, seaborn
+
 # Business and Data Understanding
 we find a dataset from kaggle, it is about 180,000 shots from 2014 to 2015 NBA.This data contains 21 columns of various datatypes. Some columns were objects that needed to be transformed. There was also an game ID column that was strictly an identifier and contained no other pertinent information. We converted location from object to category. All NaNs were filled by 0 in the dataset.  'GAME_ID','MATCHUP', 'W', 'FINAL_MARGIN', 'SHOT_NUMBER','CLOSEST_DEFENDER','CLOSEST_DEFENDER_PLAYER_ID','PTS','player_name' were dropped as they were not particularly relevant to our analysis. We converted time clock into time elapsed in seconds .We Ceate four categorical feature , includes is 3 point, is open, is dunk or layup, and catch and shot.
 
